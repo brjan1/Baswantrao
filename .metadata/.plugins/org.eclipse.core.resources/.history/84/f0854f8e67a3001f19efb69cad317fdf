@@ -1,0 +1,13 @@
+package google;
+
+import org.openqa.selenium.WebDriver;
+
+import base.BaseBR;
+
+public class GoogleTest extends BaseBR {
+	
+	public static void Google_Test1() {
+		driver.get("")
+	}
+
+}

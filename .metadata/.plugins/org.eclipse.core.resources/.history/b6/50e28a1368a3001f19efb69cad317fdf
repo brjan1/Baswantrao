@@ -1,0 +1,21 @@
+package yahoomail;
+
+import org.testng.annotations.Test;
+
+public class YahooTest {
+	
+	@Test
+	public static void Yahoo_Test1() {
+		driver.get("https://www.yahoo.com/");
+		String Url = driver.getCurrentUrl();
+		String Title = driver.getTitle();
+		System.out.println("Page Url: " + Url);
+		System.out.println("Page Title: " + Title);
+	}
+	
+	@Test
+	public static void Yahoo_Test2() {
+		System.out.println("Y Testahoo2");
+	}
+
+}
